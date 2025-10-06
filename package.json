@@ -106,7 +106,8 @@
     "test:node": "c8 node --test tests/*.js",
     "lint": "eslint scripts/*.js lib/*.js",
     "validate": "node scripts/validate.js",
-    "wikidata": "node scripts/build_wikidata.js"
+    "wikidata": "node scripts/build_wikidata.js",
+    "prepare": "npm run dist"
   },
   "dependencies": {
     "diacritics": "^1.3.0",
